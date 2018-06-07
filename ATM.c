@@ -1,40 +1,7 @@
 #include<stdio.h>
 #include<windows.h>
 #include<string.h>
-void start();
-void logo();
-void frame();
-void main_menu();
-void frame_fix();
-void view_user();
-void admin_menu();
-void view_trans();
-void delete_user();
-void delete_data();
-int gotoxy();
-void rename_file();
-void modify_file();
-void create_account();
-void edit_details();
-void modify_details(int);
-void exit_atm();
-void admin();
-void mini_statement();
-void modify_file_user();
-void view_details();
-void login_check();
-void sub_menu();
-void balance();
-void trans_notify();
-void main_menu_fix();
-void change_pin();
-void cash_deposit();
-void cash_withdraw();
-void acc_stat();
-void sys_time();
-void other_services();
-void fund_transfer();
-void fast_cash();
+
 struct data{
 char fname[30];
 char lname[30];
